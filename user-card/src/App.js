@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import user from "./images/user.png";
 import avatar from "./images/man.png";
 import "./App.css";
 
@@ -7,11 +6,12 @@ import reducers from "./reducers";
 import { createStore } from "redux";
 
 const initialState = {
-  name: "Alex Bakery",
-  description: "Software Engineer, Speaker, and Occasional Model",
-  likes: "Cats, Wine, and Black dresses",
-  location: "localhost"
+  name: "Alex Potter",
+  description: "Software Engineer, and Occasional Wizard",
+  likes: "Cats, Wine, Photography and binge-watching Netflix",
+  location: "Privet Drive"
 };
+
 const store = createStore(reducers, initialState);
 
 class App extends Component {

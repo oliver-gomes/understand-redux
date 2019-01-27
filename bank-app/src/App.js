@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import formatNumber from "format-number";
-import photographer from "./images/girl.png";
+import photographer from "./images/man.png";
 import "./App.css";
 import { store } from "./store";
 import { withdrawMoney } from "./actions";
